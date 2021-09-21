@@ -1,0 +1,16 @@
+id='room' width='400' height='300' color='azure' border='darkgrey' parpos='tl' baspos='tl'
+[
+	id='ground' width='120%' height='10%' color='darkgrey' parpos='bc' baspos='tc'
+	[
+		id='box' width='30' height='20' color='peru' parpos='tc' parposx='25%' baspos='bc'
+		id='bot' width='60' height='110' color='lightseagreen' parpos='tl' parendpos='tr' baspos='bc' translate='0.3'
+		[
+			width='8' height='8' color='orange' parpos='tr' parposx='-15' parposy='15' baspos='bl'
+			id='arm' width='80' height='20' color='turquoise' parpos='mr' parendpos='tr' baspos='ml'
+			[
+				id='finger1' width='10' height='15' color='lightgreen' parpos='bc' parposx='-10' parendpos='bl' baspos='tr'
+				id='finger2' width='10' height='15' color='lightgreen' parpos='bc' parposx='10' parendpos='br' baspos='tr'
+			]
+		]
+	]
+]

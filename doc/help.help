@@ -1,0 +1,4 @@
+help [command]:
+
+If [command] is blank, gives the list of all commands. 
+Else, gives you informations about the command asked. 

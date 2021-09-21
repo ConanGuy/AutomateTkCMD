@@ -1,0 +1,28 @@
+id='room' width='400' height='300' color='azure' border='darkgrey' parpos='tl' baspos='tl'
+[
+	id='ground' width='120%' height='10%' color='darkgrey' parpos='bc' baspos='tc'
+	[
+		id='bot2' width='75' height='75' color='lightseagreen' parpos='tc' baspos='bc'
+		[
+			id='table' width='15' height='100' color='turquoise' parpos='bc' parposy='-40%' baspos='bc'
+		]
+	]
+	id='leftwall' width='40' height='100%' color='darkgrey' parpos='tl' baspos='tr'
+	[
+		id='bot1' width='100' height='20' color='lightseagreen' parpos='tr' parposy='33%' baspos='ml'
+		[
+			id='arm' width='100' height='20' color='turquoise' parpos='bc' baspos='tl'
+			[
+				id='finger1' width='10' height='20' color='peru' parpos='bc' parposx='-25%' baspos='tr'
+				id='finger2' width='10' height='20' color='peru' parpos='bc' parposx='25%' baspos='tl'
+			]
+		]
+	]
+	id='rightwall' width='40' height='100%' color='darkgrey' parpos='tr' baspos='tl'
+	[
+		id='bot3' width='175' height='30' color='lightseagreen' parpos='tl' parposy='15%' baspos='mr'
+		[
+			id='finger3' width='10' height='20' color='peru' parpos='bc' baspos='tc'
+		]
+	]
+]
